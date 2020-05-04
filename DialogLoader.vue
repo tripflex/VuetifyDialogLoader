@@ -191,7 +191,7 @@
         }
         this.snackbar.enabled = true
 
-        if( typeof snackbar === 'object' ){
+        if( typeof this.snackbar === 'object' ){
           this.snackbar = Object.assign(this.snackbar, snackbarOptions)
         }
 
